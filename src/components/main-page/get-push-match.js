@@ -15,7 +15,7 @@ class MatchOps {
   getNewMatch(userID) {
     const act = async (userId) => {
       try {
-        const res = await axios.post("http://localhost:3001/getMatchID", {
+        const res = await axios.post("https://2465-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/getMatchID", {
           userId: userId,
         });
         const match_id = res.data.match_id;
@@ -35,7 +35,7 @@ class MatchOps {
   addMatchValues = async (match_id, result, score, moves, time) => {
     try {
       await axios.get(
-        `http://localhost:3001/insertMatchValues?matchId=${match_id}&matchResult=${result}&matchScore=${score}&matchMoves=${moves}&matchTime=${time}`
+        `https://2465-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/insertMatchValues?matchId=${match_id}&matchResult=${result}&matchScore=${score}&matchMoves=${moves}&matchTime=${time}`
       );
       setLoadQueueData();
     } catch (error) {
