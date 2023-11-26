@@ -15,7 +15,7 @@ class MatchOps {
   getNewMatch(userID) {
     const act = async (userId) => {
       try {
-        const res = await axios.post("https://smooth-ends-carry.loca.lt/getMatchID", {
+        const res = await axios.post("http://localhost:3001/getMatchID", {
           userId: userId,
         });
         const match_id = res.data.match_id;
@@ -35,7 +35,7 @@ class MatchOps {
   addMatchValues = async (match_id, result, score, moves, time) => {
     try {
       await axios.get(
-        `https://smooth-ends-carry.loca.lt/insertMatchValues?matchId=${match_id}&matchResult=${result}&matchScore=${score}&matchMoves=${moves}&matchTime=${time}`
+        `http://localhost:3001/insertMatchValues?matchId=${match_id}&matchResult=${result}&matchScore=${score}&matchMoves=${moves}&matchTime=${time}`
       );
       setLoadQueueData();
     } catch (error) {

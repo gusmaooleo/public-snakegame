@@ -12,7 +12,7 @@ class MatchQueue {
   getMatchQueue = async () => {
     try {
       const queue = await axios.get(
-        `https://smooth-ends-carry.loca.lt/getMatchesID?userId=${this.user_id}`
+        `http://localhost:3001/getMatchesID?userId=${this.user_id}`
       );
       this.getValues(queue.data);
     } catch (error) {
@@ -22,7 +22,7 @@ class MatchQueue {
   getValues = async (matches_id_queue) => {
     try {
       const queue = await axios.get(
-        `https://smooth-ends-carry.loca.lt/getMatchesStats?matches_id_queue=${matches_id_queue}`
+        `http://localhost:3001/getMatchesStats?matches_id_queue=${matches_id_queue}`
       );
       setMatchQueue(queue.data);
     } catch (error) {
