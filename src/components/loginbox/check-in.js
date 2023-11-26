@@ -38,7 +38,7 @@ class Verify {
   }
   verifyIntoDatabase(name, pic_id, callback) {
     const verify = async (n, p) => {
-      try {
+      try { 
         const response = await axios.post("https://smooth-ends-carry.loca.lt/verify", {
           name: n,
           pic_id: p,
