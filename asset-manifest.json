@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/public-snakegame/static/css/main.b9fc1203.css",
+    "main.js": "/public-snakegame/static/js/main.2778af27.js",
+    "static/media/background-video.mp4": "/public-snakegame/static/media/background-video.0713e4f4d59ac1768ccb.mp4",
+    "static/media/snake.svg": "/public-snakegame/static/media/snake.c5cc15bce7a0def6da2ea40830f8ab06.svg",
+    "static/media/gengar.jpg": "/public-snakegame/static/media/gengar.82f17a0733a86ad5be4c.jpg",
+    "static/media/sonic2.jpg": "/public-snakegame/static/media/sonic2.de6520a5be294077ad2b.jpg",
+    "static/media/star.png": "/public-snakegame/static/media/star.5c5c84ddfff3dbb81a25.png",
+    "static/media/game-table.svg": "/public-snakegame/static/media/game-table.4b8a40b0e5dd914d8612.svg",
+    "static/media/mario1.jpg": "/public-snakegame/static/media/mario1.d5516f1bb49e44c8ba35.jpg",
+    "static/media/sonic1.jpg": "/public-snakegame/static/media/sonic1.20257225ca061fffaa57.jpg",
+    "static/media/monk.jpg": "/public-snakegame/static/media/monk.fbce10188cfa85781326.jpg",
+    "static/media/cat1.jpg": "/public-snakegame/static/media/cat1.de3086f6313a6c9a142f.jpg",
+    "static/media/spongebob.jpg": "/public-snakegame/static/media/spongebob.0a1878849eaba0373120.jpg",
+    "static/media/knuckles.jpg": "/public-snakegame/static/media/knuckles.099862d2ae4ae6890034.jpg",
+    "static/media/cat2.jpg": "/public-snakegame/static/media/cat2.461f7c4d0886e1279ae8.jpg",
+    "static/media/comunistdoggo.jpg": "/public-snakegame/static/media/comunistdoggo.17c7807f37e051923dd4.jpg",
+    "static/media/pentagonescapades.jpg": "/public-snakegame/static/media/pentagonescapades.510aa61ee74c2f27c340.jpg",
+    "static/media/mario2.jpg": "/public-snakegame/static/media/mario2.6a57cdd4f8f61a9a249d.jpg",
+    "static/media/sonic3.jpg": "/public-snakegame/static/media/sonic3.02f797c41735a187202a.jpg",
+    "static/media/squirtle.jpg": "/public-snakegame/static/media/squirtle.93c62f21c8d09aca2bf8.jpg",
+    "static/media/stop.svg": "/public-snakegame/static/media/stop.5145f6f61c94b26133371f62dac9b550.svg",
+    "static/media/unfinished.svg": "/public-snakegame/static/media/unfinished.a57443c7366bbf8774483dc668517049.svg",
+    "index.html": "/public-snakegame/index.html",
+    "static/media/start.svg": "/public-snakegame/static/media/start.526d0d386626dbf15955ede5f8c941a4.svg",
+    "static/media/defeat.svg": "/public-snakegame/static/media/defeat.53a0fbb41145a0acb3272aa996ccadf5.svg",
+    "static/media/pause.svg": "/public-snakegame/static/media/pause.158c16997bcada3ac7e37464e62aec68.svg",
+    "main.b9fc1203.css.map": "/public-snakegame/static/css/main.b9fc1203.css.map",
+    "main.2778af27.js.map": "/public-snakegame/static/js/main.2778af27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9fc1203.css",
+    "static/js/main.2778af27.js"
+  ]
+}
