@@ -39,7 +39,7 @@ class Verify {
   verifyIntoDatabase(name, pic_id, callback) {
     const verify = async (n, p) => {
       try {
-        const response = await axios.post("https://8659-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/verify", {
+        const response = await axios.post("https://smooth-ends-carry.loca.lt/verify", {
           name: n,
           pic_id: p,
         });
@@ -100,7 +100,7 @@ class Verify {
       if (result.value) {
         const verify = async (n, p) => {
           try {
-            const response = await axios.post("https://8659-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/push", {
+            const response = await axios.post("https://smooth-ends-carry.loca.lt/push", {
               name: n,
               pic_id: p,
             });
@@ -160,7 +160,7 @@ class Verify {
     const getID = async (n, p) => {
       try {
         const response = await axios.get(
-          `https://8659-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/getID?name=${n}&pic_id=${p}`
+          `https://smooth-ends-carry.loca.lt/getID?name=${n}&pic_id=${p}`
         );
         setUserID(response.data.user_id);
         setLoadQueueData();

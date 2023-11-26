@@ -12,7 +12,7 @@ class MatchQueue {
   getMatchQueue = async () => {
     try {
       const queue = await axios.get(
-        `https://8659-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/getMatchesID?userId=${this.user_id}`
+        `https://smooth-ends-carry.loca.lt/getMatchesID?userId=${this.user_id}`
       );
       this.getValues(queue.data);
     } catch (error) {
@@ -22,7 +22,7 @@ class MatchQueue {
   getValues = async (matches_id_queue) => {
     try {
       const queue = await axios.get(
-        `https://8659-2804-14d-7289-8628-dc51-5477-7d1-ad2b.ngrok-free.app/getMatchesStats?matches_id_queue=${matches_id_queue}`
+        `https://smooth-ends-carry.loca.lt/getMatchesStats?matches_id_queue=${matches_id_queue}`
       );
       setMatchQueue(queue.data);
     } catch (error) {
