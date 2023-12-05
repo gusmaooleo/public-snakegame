@@ -3,5 +3,3 @@ The project isn't hosted yet because it's incomplete (around 40% complete). For 
 note:
 Works well on windows not bad in mac. About: linux, ios, android... i don't know if it works.
 Works well on 75hz monitor.
-
--> https://open-basilisk-amusing.ngrok-free.app
